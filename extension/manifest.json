@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "NeuroTrace",
+  "version": "1.0",
+  "description": "Behavioral Productivity Analytics Extension",
+  "permissions": [
+    "tabs",
+    "storage",
+    "idle"
+  ],
+  "host_permissions": [
+    "<all_urls>",
+    "http://localhost:3000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "NeuroTrace"
+  }
+}

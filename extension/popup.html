@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NeuroTrace</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 320px;
+      padding: 15px;
+      background: #111827;
+      color: white;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .activity {
+      background: #1f2937;
+      padding: 12px;
+      border-radius: 12px;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+
+    .duration {
+      color: #10b981;
+      font-size: 12px;
+    }
+
+    .time {
+      color: #9ca3af;
+      font-size: 11px;
+      margin-top: 4px;
+    }
+    .top {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.favicon {
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+}
+
+.domain {
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 11px;
+  color: #d1d5db;
+}
+
+.category {
+  margin-top: 10px;
+  padding: 5px 8px;
+  border-radius: 8px;
+  font-size: 11px;
+  width: fit-content;
+}
+
+.Productive {
+  background: #064e3b;
+  color: #34d399;
+}
+
+.Distracting {
+  background: #7f1d1d;
+  color: #f87171;
+}
+
+.Neutral {
+  background: #374151;
+  color: #d1d5db;
+}
+button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+  </style>
+</head>
+
+<body>
+
+  <h1>NeuroTrace</h1>
+
+  <div id="activity-list"></div>
+  <button id="open-dashboard">
+  Open Full Dashboard
+  </button>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
