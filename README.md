@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./neurotrace.png" width="900" alt="NeuroTrace Banner"/>
+  <img src="./neuro.png" width="900" alt="NeuroTrace Banner"/>
 </p>
 ## 🧠 NeuroTrace — Behavioral Productivity Analytics
 
