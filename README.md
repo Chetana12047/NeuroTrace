@@ -1,7 +1,7 @@
 <p align="center">
   <img src="./neuro.png" width="800" alt="NeuroTrace Banner"/>
 </p>
-## 🧠 NeuroTrace — Behavioral Productivity Analytics
+##🧠 NeuroTrace — Behavioral Productivity Analytics
 
 NeuroTrace is a real-time behavioral productivity analytics system that tracks browser activity, desktop applications, focus patterns, and productivity behavior.
 
