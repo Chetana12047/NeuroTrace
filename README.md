@@ -181,6 +181,7 @@ Weekly focus trends, top platforms, and productivity consistency monitoring.
 
 # 🧩 Project Structure
 
+```text
 NeuroTrace
 │
 ├── app
@@ -241,6 +242,7 @@ NeuroTrace
 ├── desktop-tracker.js
 ├── package.json
 └── README.md
+```
 
 ⸻
 
